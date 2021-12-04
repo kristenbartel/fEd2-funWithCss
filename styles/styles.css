@@ -39,6 +39,7 @@ body {
     float: left;
     margin-right:60px;
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15pt;
   }
 
 a {
@@ -70,9 +71,14 @@ h2 {
 .index-body p {
     font-family: 'Source Sans Pro', sans-serif;
     padding: 20px;
-        
+    text-align: justify;
           
 }
+
+/* .vid-text {
+    display: block;
+    text-align: center;
+} really don't know why this isn't*/
 
 .grid__body {
     grid-column-start: 1;
@@ -103,7 +109,7 @@ h2 {
 .container-page1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 1fr 100px;
+    grid-template-rows: 400px 1fr 300px;
     width: 100vw;
     height: 100vh;
   }
@@ -129,7 +135,11 @@ h2 {
 
   .body-page1 p {
     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
     padding: 20px;
-    
-      
   }
+
+  /* Page 2 starts here_______________________________________
+
+  

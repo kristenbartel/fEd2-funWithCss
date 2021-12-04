@@ -1,0 +1,58 @@
+/* Page 2 starts here_______________________________________ */
+body {
+    margin: 40px;
+  }
+  
+  .wrapper {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: repeat(4, [col] 200px ) ;
+      /* number of times you want the notation to repeat then the expression */
+      grid-template-rows: repeat(3, [row] 300px);
+      color: rgb(68, 68, 68);
+      width: 100vw;
+    height: 100vh;
+    }
+  
+    .box {
+      background-color: #444;
+      color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      font-size: 150%;
+  
+    }
+  
+    .box-1 {
+      grid-column: col / span 2;
+      grid-row: row ;
+      background-color: rgba(154, 9, 9, 0.173);
+      font-size: 50pt;
+    }
+    .box-2 {
+      grid-column: col 3 / span 2 ;
+      grid-row: row ;
+      background-color: rgb(154, 9, 9, 0.173);
+    }
+    .box-3 {
+      grid-column: col ;
+      grid-row: row 2 ;
+      background-color: rgb(154, 9, 9, 0.173);
+    }
+    .box-4 {
+      grid-column: col 2 / span 3 ;
+      grid-row: row 2 ;
+      background-color: rgb(154, 9, 9, 0.173);
+      font-size: 20pt;
+    }
+  
+    .box-5 {
+      grid-column: col / span 4;
+      grid-row: row 3;
+      background-color: rgb(154, 9, 9, 0.173);
+      
+    }
+
+
+
+
