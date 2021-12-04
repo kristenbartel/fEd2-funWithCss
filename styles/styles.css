@@ -1,0 +1,145 @@
+
+/* All pages */
+
+body {
+    margin: 0;
+    /* takes the content edge to edge */
+  }
+  .header {
+    background-color: rgba(98, 184, 11, 0.194);
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding-left: 20px;
+  }
+
+.grid__footer {
+    background-color: rgba(98, 184, 11, 0.194);
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 10px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  } 
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    
+  }
+
+.menu > li {
+    float: left;
+    margin-right:60px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15pt;
+  }
+
+a {
+    color: black;
+    text-decoration: none;
+    
+  }
+
+a:hover {
+    color: rgba(185, 160, 45, 0.927);
+    text-decoration: none;
+}
+
+/* Index Page_______________________________________________________ */
+
+.container {
+    display: grid; 
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 255, 0.125);
+  }
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+
+}
+
+.index-body p {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px;
+    text-align: justify;
+          
+}
+
+/* .vid-text {
+    display: block;
+    text-align: center;
+} really don't know why this isn't*/
+
+.grid__body {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  iframe {
+      display: block;
+      margin: 0 auto; 
+      /* please find out what the hell this margin thing means when you add it to display*/
+  }
+
+.grid__sidebar {
+    background-color: rgba(233, 150, 122, 0.488);
+    font-family: 'Source Sans Pro', sans-serif;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 10px;
+  } 
+
+
+/* page 1 starts here____________________________________________ */
+
+.container-page1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px 1fr 300px;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .one {
+    background-color: coral;
+  }
+  
+  .two {
+    background-color: rgb(255, 0, 255);
+    grid-row: span 2;
+  }
+  
+  .three {
+    background-color: cadetblue;
+    grid-column: span 1;
+  }
+
+  .four {
+      background-color: darkgoldenrod;
+      grid-column: span 2;
+  }
+
+  .body-page1 p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 20px;
+  }
+
+  /* Page 2 starts here_______________________________________
+
+  
